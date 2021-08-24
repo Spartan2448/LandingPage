@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -43,13 +43,11 @@
 
     <title>Atributos de calidad</title>
 
-
-
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg py-4 px-5">
-            <a class="navbar-brand text-white me-auto " style="font-size: 25px;" href="">Atributos de calidad</a>
+            <a class="navbar-brand text-white me-auto " style="font-size: 25px;" href="">Atributos de calidad de software</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -270,7 +268,6 @@
                         <H5 >Caramirez579@misena.edu.co</H5>
                         <H5 >ADSI SENA</H5>
                         <h5><input class="border-0 text-center" type="datetime" name="fecha"  value="<?php echo date("Y-m-d");?>"></h5>
-
                         <!--<div class="col-12 text-center mt-4">
                             <small>&copy; Copyright 2021, Servicio Nacional de Aprendizaje</small>
                         </div>-->
