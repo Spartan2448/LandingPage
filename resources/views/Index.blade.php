@@ -107,12 +107,12 @@
             <div class="row justify-content-center py-5">
                 <div class="row justify-content-center ">
                     <H4 style="font-weight: bold;">Disponibilidad</H4>
-                    <hr class="border border-dark border-2 w-25 m-lg-auto">
+                    <hr class="border border-white border-2 w-25 m-lg-auto">
                     <p style="padding-top: 15px; text-align: center">Propiedad del software que garantiza la correcta funionalidad del sistema, cuando requiere ser usado.
                     </p>
                     <p style="padding-top: 15px; text-align: center">Debe garantizar la respuesta ante una detención o provocación de falla.</p>
                     <H5 style="font-weight: bold;">Escenario</H5>
-                    <hr class="border border-dark border-2 w-auto m-lg-auto">
+                    <hr class="border border-white border-2 w-auto m-lg-auto">
                     <p>En este escenario se tendrá un monitoreo parcial al trafico de red, el cual entra al sistema/servidor monitoreado.
                         El monitor registra que en lapso de dos horas para la fecha, que el trafico de red tiene un  incremento elevado produciendo
                         una lentiud en la red fuera del margen normal establecido durante 5 minutos , afectando en cierta medida
@@ -131,13 +131,13 @@
         <div class="row justify-content-center py-2">
             <div class="row justify-content-center ">
                 <H4 style="font-weight: bold;">Interoperatividad</H4>
-                <hr class="border border-dark border-2 w-25 m-lg-auto">
+                <hr class="border border-white border-2 w-25 m-lg-auto">
                 <p style="padding-top: 15px;">Es la capacidad de los sistemas para intercambiar informacion entre si.
                     Se basa en dos conceptos los cuales son: la capacidad de intercambiar datos (interoperatividad sintáctica) y tambien la capacidad
                     de interprestar correctamente la informacion que se suministra o intercambia (interoperatividad semántica).
                 </p>
                 <H5 style="font-weight: bold;">Escenario</H5>
-                <hr class="border border-dark border-2 w-auto m-lg-auto">
+                <hr class="border border-white border-2 w-auto m-lg-auto">
                 <p>El escenario planteado es el de una aplicación que utiliza servicio de GPS, el cual es usado por el usuario que
                     solicita la ubicación actual de donde se encuentra. La aplicación a través del servicio de GPS envía la información de ubicación
                     actual al sistema de monitoreo de tráfico . El sistema de monitoreo de tráfico combina nuestra ubicación
@@ -156,7 +156,7 @@
         <div class="row justify-content-center py-4">
             <div class="row justify-content-center ">
                 <H4 style="font-weight: bold;">Modificalidad</H4>
-                <hr class="border border-dark border-2 w-25 m-lg-auto">
+                <hr class="border border-white border-2 w-25 m-lg-auto">
                 <p style="padding-top: 15px;">
                     Es la propiedad que brinda al arquitecto de software, las tácticas que se deben tener
                     para adecuar un óptimo cambio y costo en el desarrollo del sistema a implementar.
@@ -164,7 +164,7 @@
                     para el constante cambio que tendra en la vida util del mismo.
                 </p>
                 <H5 style="font-weight: bold;">Escenario</H5>
-                <hr class="border border-dark border-2 w-auto m-lg-auto">
+                <hr class="border border-white border-2 w-auto m-lg-auto">
                 <p>El escenario planteado es en el desarrollo de un sistema en la cual el desarrollador desea cambiar
                     la interfaz de usuario modificando el código fuente en el momento del diseño e implementación. Esta modificación se efectua sin efectos
                     secundarios dentro de las 3 horas ya pactadas para tal fin.
@@ -181,7 +181,7 @@
         <div class="row justify-content-center py-4">
             <div class="row justify-content-center ">
                 <H4 style="font-weight: bold;">Rendimiento</H4>
-                <hr class="border border-dark border-2 w-25 m-lg-auto">
+                <hr class="border border-white border-2 w-25 m-lg-auto">
                 <p style="padding-top: 15px; ">
                     Esta propiedad nos indica la capacidad de respuesta del sistema para ejecutar ciertos eventos en un intervalo de tiempo,
                     su escencia se basa en medir en tiempo, la respuesta que puede tener el sistema en la ejecución
@@ -191,7 +191,7 @@
                 </p>
 
                 <H5 style="font-weight: bold;">Escenario</H5>
-                <hr class="border border-dark border-2 w-auto m-lg-auto">
+                <hr class="border border-white border-2 w-auto m-lg-auto">
                 <p>El escenario planteado es en la ejecucion de una prueba de rendimiento actual a un sistema transaccional, donde el usuario
                     inician el envío de transaccicones a traves de la aplicación con una operación normal. El sistema procesa dicha solicitud con una
                     latencia promedio de 2 segundos.
@@ -208,7 +208,7 @@
         <div class="row justify-content-center py-4">
             <div class="row justify-content-center ">
                 <H4 style="font-weight: bold;">Seguridad</H4>
-                <hr class="border border-dark border-2 w-25 m-lg-auto">
+                <hr class="border border-white border-2 w-25 m-lg-auto">
                 <p style="padding-top: 15px; text-align: center">
                     Es la capacidad en la cual un sistema garantiza la protección de los datos y el acceso a la información solo a las personas autorizadas.
                     Se caracteriza a través de 3 enfoques: confidencialidad, integridad y disponibilidad.
@@ -217,7 +217,7 @@
                 </p>
 
                 <H5 style="font-weight: bold;">Escenario</H5>
-                <hr class="border border-dark border-2 w-auto m-lg-auto">
+                <hr class="border border-white border-2 w-auto m-lg-auto">
                 <p>El escenario planteado consta de que un empleado descontento remotamente intenta realizar la manipulación de las tasas de pago del
                     sistema en operación normal. Este sistema registra en su log de auditoria esta modificación.
                     Un día después, se analiza la causa del cambio a través de la verificación de este log y se encuentra
@@ -236,7 +236,7 @@
         <div class="row justify-content-center py-4">
             <div class="row justify-content-center ">
                 <H4 style="font-weight: bold;">Testeabilidad</H4>
-                <hr class="border border-dark border-2 w-25 m-lg-auto">
+                <hr class="border border-white border-2 w-25 m-lg-auto">
                 <p style="padding-top: 15px; text-align: center">
                     Es la propiedad que tiene un sistema en facilitar la ejecución de validaciones y pruebas para así grantizar el correcto
                     funcionamiento del mismo.
@@ -245,7 +245,7 @@
                 </p>
                 <img src="{{asset('images/Modelo de prueba.png')}}" class="img-fluid w-75 pb-3"  alt="ModeloPrueba">
                 <H5 style="font-weight: bold;">Escenario</H5>
-                <hr class="border border-dark border-2 w-auto m-lg-auto">
+                <hr class="border border-white border-2 w-auto m-lg-auto">
                 <p>El escenario planteado establece que el probador "tester" funcional, completar en cierta medida
                     su deck de pruebas según las historias de usuario entregadas para dicha ejecución de pruebas en la
                     construcción del módulo del sistema entregado en un tiempo pactado de aproximadamente 3 horas.
@@ -263,7 +263,7 @@
                 <div class="row justify-content-center py-3">
                     <div class="col-14 text-center mt-3">
                         <h4 style="font-weight: bold; font-size: xx-large">Información de Contacto</h4>
-                        <hr class="border border-light border-2 w-25 m-lg-auto ">
+                        <hr class="border border-white border-2 w-25 m-lg-auto">
                     </div>
                     <div class="col-4 mb-4 mt-4">
                         <H5 >Carlos Andrés Ramírez López</H5>
