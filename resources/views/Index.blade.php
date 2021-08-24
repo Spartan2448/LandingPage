@@ -41,7 +41,7 @@
 
     </style>
 
-    <title>Document</title>
+    <title>Atributos de calidad</title>
 
 
 
